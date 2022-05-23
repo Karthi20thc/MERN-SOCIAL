@@ -1,0 +1,130 @@
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile .profileright {
+  -webkit-box-flex: 8;
+      -ms-flex: 8;
+          flex: 8;
+}
+
+.profile .profileright .profilerighttop {
+  padding: 20px;
+}
+
+.profile .profileright .profilerighttop .profileinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+.profile .profileright .profilerighttop .profileinfo .profileinfoname {
+  font-size: 28px;
+  color: #333;
+}
+
+.profile .profileright .profilerighttop .profilecover {
+  position: relative;
+}
+
+.profile .profileright .profilerighttop .profilecover .profileuserimg {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -18%;
+  left: 2%;
+  margin: auto;
+  border: 4px solid white;
+}
+
+.profile .profileright .profilerighttop .profilecover .profilecoverimg {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.profile .profileright .profilerightbottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profilerightbar {
+  padding: 20px;
+}
+
+.profilerightbar .rightbarfollowbtn {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #8158b6;
+  color: white;
+  font-size: 17px;
+  border: none;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.profilerightbar .rightbarfollowbtn:focus {
+  outline: none;
+}
+
+.profilerightbar .rightbarinfoitem {
+  margin-bottom: 5px;
+}
+
+.profilerightbar .rightbarinfoitem .rbinfokey {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 10px;
+  color: #555;
+}
+
+.profilerightbar .rightbarinfoitem .rbinfovalue {
+  color: #555;
+}
+
+.profilerightbar .rightbartitle {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #333;
+}
+
+.profilerightbar .rightbarfollowings {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  padding: 2px 5px;
+}
+
+.profilerightbar .rightbarfollowings .rbfollowing {
+  color: #555;
+}
+
+.profilerightbar .rightbarfollowings .rbfollowing .rbfollowingimg {
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.profilerightbar .rightbarfollowings .rbfollowing .rbfollwoingname {
+  font-size: 14px;
+  line-height: 1.1;
+}

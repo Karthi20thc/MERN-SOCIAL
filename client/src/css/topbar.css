@@ -1,0 +1,140 @@
+.topbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #8158b6;
+  padding: 8px;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.topbar .tb-leftbar {
+  margin-left: 10px;
+}
+
+.topbar .tb-leftbar .logo {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+
+.topbar .tb-centerbar {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.topbar .tb-centerbar .searchbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+}
+
+.topbar .tb-centerbar .searchbar .search-icon {
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: #0c5a3b;
+  background-color: white;
+}
+
+.topbar .tb-centerbar .searchbar input {
+  margin-left: 3px;
+  width: 500px;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.topbar .tb-rightbar {
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topbar .tb-rightbar .links .link {
+  font-size: 17px;
+  padding: 3px 7px;
+}
+
+.topbar .tb-rightbar .links span {
+  border: 0.5px solid;
+  color: white;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+.topbar .tb-rightbar .links span:last-child {
+  margin-right: 40px;
+}
+
+.topbar .tb-rightbar .links span:hover {
+  background-color: white;
+  color: #063120;
+}
+
+.topbar .tb-rightbar .icon {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.topbar .tb-rightbar .icon .i {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.topbar .tb-rightbar .icon span {
+  font-size: 13px;
+  padding: 1px;
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  width: 16px;
+  height: 16px;
+  background-color: #fd3838;
+  color: white;
+  border-radius: 50%;
+}
+
+.topbar .tb-rightbar .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  color: white;
+}
+
+.topbar .tb-rightbar .icons .Img {
+  margin-left: 40px;
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

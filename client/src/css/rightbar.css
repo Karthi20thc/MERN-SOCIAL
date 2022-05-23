@@ -1,0 +1,99 @@
+.rightbar {
+  -webkit-box-flex: 2.5;
+      -ms-flex: 2.5;
+          flex: 2.5;
+  border: 0px solid;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 57px;
+  overflow-y: scroll;
+}
+
+.rightbar::-webkit-scrollbar-thumb {
+  background-color: #a7a7a7;
+}
+
+.rightbar::-webkit-scrollbar {
+  width: 6px;
+  background-color: white;
+}
+
+.rightbar .h4rb {
+  margin-top: 10px;
+}
+
+.rightbar .friendslistrb {
+  list-style: none;
+  padding: 10px;
+}
+
+.rightbar .friendslistrb .friendrb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.rightbar .friendslistrb .friendrb:hover {
+  background-color: #d1d1d1;
+}
+
+.rightbar .friendslistrb .friendrb .friendnamerb {
+  font-size: 18px;
+  color: #1f1f1f;
+  font-weight: 500;
+}
+
+.rightbar .friendslistrb .friendrb .profileconrb {
+  position: relative;
+}
+
+.rightbar .friendslistrb .friendrb .profileconrb .onlinedot {
+  width: 10px;
+  height: 10px;
+  background-color: limegreen;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+  right: 1px;
+  border: 2px solid white;
+}
+
+.rightbar .friendslistrb .friendrb .profileconrb .profileimgrb {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.rightbar .birthdaycontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.rightbar .birthdayicon {
+  font-size: 39px;
+}
+
+.rightbar .birthdaytxt {
+  font-size: 17px;
+  color: #555;
+}
+
+.rightbar .adimg {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

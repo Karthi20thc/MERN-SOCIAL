@@ -1,0 +1,90 @@
+.login {
+	// box-shadow: 0 0 16px rgba(0, 0, 0, 0.322);
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	// background-image: url(https://cdn.pixabay.com/photo/2017/03/29/15/18/tianjin-2185510_960_720.jpg);
+	// background-size: cover;
+	// width: 1000px;
+	// margin: 0 auto;
+	// margin-top: 100px;
+	// background-color: rgb(236, 236, 236);
+
+	.loginwrapper {
+		box-shadow: 0 0 16px rgba(0, 0, 0, 0.301);
+		// background-color: #9379b4;
+		display: flex;
+		align-items: center;
+		gap: 80px;
+		padding: 30px;
+		border-radius: 10px;
+
+		.loginleft {
+			.logindesc {
+				color: #8158b6;
+			}
+			.loginlogo {
+				font-size: 70px;
+				color: #8158b6;
+				line-height: 0.8;
+			}
+			.logindesc {
+				display: block;
+				margin-top: 30px;
+				font-size: 25px;
+			}
+		}
+		.loginright {
+			// border: 0.5px solid;
+			// width: 50%;
+
+			.link-register {
+				.registerbutton {
+					font-weight: 600;
+					padding: 8px;
+					font-size: 18px;
+					border-radius: 10px;
+					border: none;
+					color: white;
+					background-color: rgb(241, 118, 72);
+					cursor: pointer;
+				}
+			}
+
+			Link .logincon {
+				display: flex;
+				flex-direction: column;
+				gap: 20px;
+
+				.forgetpass {
+					color: rgb(58, 58, 58);
+					font-size: 16px;
+				}
+
+				.loginbutton {
+					padding: 8px;
+					font-size: 18px;
+					border-radius: 10px;
+					border: none;
+					background-color: #3e8a51;
+					// background-color: #35b354;
+					color: white;
+					font-weight: 600;
+					cursor: pointer;
+				}
+
+				.logininput {
+					padding: 9px;
+					font-size: 18px;
+					border-radius: 10px;
+					border: 3px solid grey;
+					&:focus {
+						outline: none;
+					}
+				}
+			}
+		}
+	}
+}

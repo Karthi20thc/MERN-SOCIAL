@@ -1,0 +1,101 @@
+.share {
+  padding: 20px;
+}
+
+.share .sharewrapper {
+  -webkit-box-shadow: 0 0 8px rgba(87, 87, 87, 0.321);
+          box-shadow: 0 0 8px rgba(87, 87, 87, 0.321);
+  padding: 10px;
+}
+
+.share .sharewrapper .shareimgconainer {
+  position: relative;
+}
+
+.share .sharewrapper .shareimgconainer .shareimg {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.share .sharewrapper .shareimgconainer .imgclose {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #8158b6;
+  color: white;
+}
+
+.share .sharewrapper .shtop {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.share .sharewrapper .shtop .img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.share .sharewrapper .shtop .input {
+  width: 100%;
+  font-size: 17px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+
+.share .sharewrapper .shbottom {
+  padding: 10px;
+}
+
+.share .sharewrapper .shbottom .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+  padding: 5px;
+  position: relative;
+}
+
+.share .sharewrapper .shbottom .options .sharebtn {
+  padding: 5px 10px;
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  margin-right: 10px;
+  background-color: #8158b6;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 10px;
+}
+
+.share .sharewrapper .shbottom .options .option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.share .sharewrapper .shbottom .options .option .icon {
+  font-size: 25px;
+}
+
+.share .sharewrapper .shbottom .options .option .txt {
+  color: #3f3f3f;
+  font-weight: 600;
+}

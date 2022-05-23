@@ -1,0 +1,108 @@
+.profile {
+	display: flex;
+
+	.profileright {
+		flex: 8;
+
+		.profilerighttop {
+			padding: 20px;
+
+			.profileinfo {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				margin-top: 10px;
+
+				.profileinfoname {
+					font-size: 28px;
+					color: #333;
+				}
+			}
+
+			.profilecover {
+				position: relative;
+				// height: 300px;
+
+				.profileuserimg {
+					width: 120px;
+					height: 120px;
+					border-radius: 50%;
+					position: absolute;
+					bottom: -18%;
+					left: 2%;
+					margin: auto;
+					// right: 50%;
+					border: 4px solid white;
+				}
+				.profilecoverimg {
+					width: 100%;
+					height: 250px;
+					object-fit: cover;
+				}
+			}
+		}
+		.profilerightbottom {
+			display: flex;
+		}
+	}
+}
+
+//---------------------------------------------------------/
+.profilerightbar {
+	padding: 20px;
+
+	.rightbarfollowbtn {
+		padding: 5px 10px;
+		cursor: pointer;
+		background-color: #8158b6;
+		color: white;
+		font-size: 17px;
+		border: none;
+		font-weight: 600;
+		border-radius: 10px;
+
+		&:focus {
+			outline: none;
+		}
+	}
+	.rightbarinfoitem {
+		margin-bottom: 5px;
+		.rbinfokey {
+			font-size: 18px;
+			font-weight: 600;
+			margin-right: 10px;
+			color: #555;
+		}
+		.rbinfovalue {
+			color: #555;
+		}
+	}
+
+	.rightbartitle {
+		margin-top: 20px;
+		margin-bottom: 15px;
+		font-size: 24px;
+		color: #333;
+	}
+	.rightbarfollowings {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 5px;
+		padding: 2px 5px;
+
+		.rbfollowing {
+			color: #555;
+			.rbfollowingimg {
+				border-radius: 10px;
+				width: 80px;
+				height: 80px;
+				// border-radius: 50%;
+			}
+			.rbfollwoingname {
+				font-size: 14px;
+				line-height: 1.1;
+			}
+		}
+	}
+}
